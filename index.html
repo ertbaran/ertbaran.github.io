@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official apps and privacy information from Ertuğrul Baran.">
+  <title>Ertuğrul Baran | Apps</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#0f172a; --panel:#172033; --text:#f8fafc; --muted:#cbd5e1; --accent:#7dd3fc; --line:#334155; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--text); }
+    main { width:min(920px,calc(100% - 32px)); margin:auto; padding:64px 0; }
+    header { margin-bottom:40px; }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,7vw,4rem); line-height:1.1; }
+    h2 { margin-top:0; }
+    p { color:var(--muted); }
+    .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+    .card { padding:24px; border:1px solid var(--line); border-radius:18px; background:var(--panel); }
+    .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+    a { color:var(--accent); }
+    .button { display:inline-block; padding:10px 14px; border:1px solid var(--accent); border-radius:10px; text-decoration:none; }
+    footer { margin-top:56px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Ertuğrul Baran Apps</h1>
+      <p>Official developer page for apps, support links and privacy information.</p>
+      <p>Uygulamalar, destek bağlantıları ve gizlilik bilgileri için resmi geliştirici sayfası.</p>
+    </header>
+    <section aria-labelledby="apps-heading">
+      <h2 id="apps-heading">Apps / Uygulamalar</h2>
+      <div class="apps">
+        <article class="card">
+          <h2>Date Tracker APP</h2>
+          <p>Track important dates, countdowns and events with widgets and local reminders.</p>
+          <p>Önemli tarihleri, geri sayımları ve etkinlikleri widget'lar ve yerel hatırlatıcılarla takip edin.</p>
+          <div class="links">
+            <a class="button" href="https://play.google.com/store/apps/details?id=com.ertbaran.datetracker">Google Play</a>
+            <a class="button" href="/datetracker-privacy.html">Privacy Policy</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>Support / Destek: <a href="mailto:ert.baran@gmail.com">ert.baran@gmail.com</a></p>
+      <p>Additional apps and their individual privacy policies will be listed here.</p>
+    </footer>
+  </main>
+</body>
+</html>
